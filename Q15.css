@@ -1,0 +1,52 @@
+h1
+            {
+                color:beige;
+                text-align:center;
+                
+                text-decoration-color:rgb(61,43,226);
+                text-decoration-style:wavy;
+                text-decoration-thickness:3px;
+                
+                text-transform: capitalize;
+                font-size:30px;
+                text-shadow:10px 20px 30px rgba(172, 255, 47, 0.507);
+            }
+            h1
+            {
+                color:beige;
+                text-align:center;
+                
+                text-decoration-color:rgb(61,43,226);
+                text-decoration-style:wavy;
+                text-decoration-thickness:3px;
+                
+                text-transform: capitalize;
+                font-size:20px;
+                text-shadow:10px 20px 30px rgba(172, 255, 47, 0.507);
+            }
+            p
+            {
+                text-align:justify;
+                line-height:2;
+                font-size:15px;
+                letter-spacing:-1px;
+                word-spacing:10px;
+                text-indent:80px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight:lighter;
+                font-style:italic;
+                font-variant: small-caps;
+                background-color: rgba(219, 209, 210, 0.5);
+            }
+            body{
+                background-color:rgba(32, 100, 77 ,0.5);
+                background-image:linear-gradient(to top right ,rgba(74, 178, 195, 0.5),rgba(190, 216, 228, 0.5),rgb(100, 100, 133)),url(12.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .highlight
+            {
+                background-color:rgba(228, 207, 207);
+                color:black;
+            }

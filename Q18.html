@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            .container{
+                border:solid red 3px;
+                height: 750px;
+                width: 750px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: flex-end;
+                background-color:bisque;
+            }
+            .container>div{
+                border: solid rgb(229, 199, 199) 3px;
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                position:relative;
+                animation-name: animateOne;
+                animation-duration:2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+            .container>div:hover{
+                background-color:cadetblue;
+                color:blanchedalmond;
+                transform: rotate(360deg) scaleY(2) skewY(45deg) translateY(100px);
+                transition: 2s;
+               
+            }
+            @keyframes animateOne{
+                from{
+                    transform: rotate(0deg);
+                    background-color:brown;
+                    left: 0px;
+
+                }
+                50%{
+                    left: 300px;
+                    top:0;
+                }
+                to{
+                    transform: rotate(360deg);
+                    left: 300px;
+                    top:300px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                one
+            </div>
+            <div>
+                two
+            </div>
+            <div>
+                three
+            </div>
+            <div>
+                four
+            </div>
+            <div>
+                five
+            </div>
+            <div>
+                six
+            </div>
+            <div>
+                seven
+            </div>
+            <div>
+                eight
+            </div>
+        </div>
+    </body>
+</html>
